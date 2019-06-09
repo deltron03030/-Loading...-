@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script> 
+<style type="text/css">
+body {
+	background-color: #000000;
+}
+</style>
+<style>
+div1 {
+   text-align: center;
+    top:12vh;
+    width:100%
+}
+</style>
+</head>
+
+<body>  
+    
+<div1><p > <a href="loading-2.html"><img src="Loading_icon-transparent.gif" width="400"></a></p>
+<br>
+<br>    
+<br> 
+    <br>   </div1> 
+
+<div style="z-index: -1" id='preview'/>
+        
+ <script>
+var opts = {
+  lines: 10 // The number of lines to draw
+, length: 35 // The length of each line
+, width: 5 // The line thickness
+, radius: 25 // The radius of the inner circle
+, scale: 5 // Scales overall size of the spinner
+, corners: 1 // Corner roundness (0..1)
+, color: '#ffffff' // #rgb or #rrggbb or array of colors
+, opacity: 0.5 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: 1 // 1: clockwise, -1: counterclockwise
+, speed: 1 // Rounds per second
+, trail: 6 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '50%' // Top position relative to parent
+, left: '50%' // Left position relative to parent
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'relative' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script>
+    
+<style>
+#logo-zone {
+position: absolute;
+top: 40vh;
+left: 35% ;
+height: 20vh;
+width: 400px;
+background-color: transparent;
+
+}
+ </style>
+        <br><br><br><br><br><br><br>
+<a id="logo-zone" href="world3.2.html">    
+<div style="top:80vh; text-align:center"><a href="4.5.html"><img src="spinner-transparent.gif" width="400"></a></div>
+</body>
+</html>

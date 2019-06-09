@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+ 
+<div class="animate"></div>  
+    
+<style>
+body { background:linear-gradient(144deg, #246655, #2828c3, #c0e02f, #2fe0d6, #ff41f3);
+background-size: 1000% 1000%;
+
+-webkit-animation: animate 1s ease infinite;
+-moz-animation: animate 1s ease infinite;
+animation: animate 1s ease infinite;
+
+@-webkit-keyframes animate {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+@-moz-keyframes animate {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+@keyframes animate {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+}
+    
+</style>
+    
+<style>
+.button {
+  background-size: 100%;
+  background-image: linear-gradient(#fff, #ccc);
+  border-radius: 0.45rem;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  color: #333;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding: 1rem 1.5rem;
+  position: relative;
+  z-index: 100;
+  
+  &:before {
+    border-radius: inherit;
+    background-image: linear-gradient(#ccc, #fff);
+    content: '';    
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -100;
+    transition: opacity 0.45s;
+  }
+  
+  &:hover {
+    &:before {
+      opacity: 1;
+    }
+  }
+}    
+    </style>
+</head>
+
+<body>
+
+<a href="6.html">
+<center><img src="Loading_icon-chaos.gif" class="centerImage1" alt="" width="247" height="161">
+</body>
+</html>

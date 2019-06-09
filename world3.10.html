@@ -1,0 +1,124 @@
+
+
+<html>
+<head>
+  <title>Loading...</title>   
+<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script> 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script> 
+    </head>
+    
+    <body>
+        <style>
+        body {
+	background-size: 40px 40px;
+    background-image: linear-gradient(to right, rgb(255, 47, 47) 40px, transparent 1px), linear-gradient(to bottom, white 20px, grey 1px);
+}
+audio { 
+   display:none;
+}
+ </style>
+        
+    
+<div style="z-index: -1" id='preview'/>
+        
+ <script>
+var opts = {
+  lines: 10 // The number of lines to draw
+, length: 200 // The length of each line
+, width: 800 // The line thickness
+, radius: 80 // The radius of the inner circle
+, scale: 5 // Scales overall size of the spinner
+, corners: 0.7 // Corner roundness (0..1)
+, color: '#987992' // #rgb or #rrggbb or array of colors
+, opacity: 0.3 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: 1 // 1: clockwise, -1: counterclockwise
+, speed: 1.5 // Rounds per second
+, trail: 2 // Afterglow percentage
+, fps: 50 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '50%' // Top position relative to parent
+, left: '50%' // Left position relative to parent
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+     
+
+
+</script> 
+        
+ <script>
+var opts = {
+  lines: 7 // The number of lines to draw
+, length: 100 // The length of each line
+, width: 30 // The line thickness
+, radius: 20 // The radius of the inner circle
+, scale: 2.75 // Scales overall size of the spinner
+, corners: 1 // Corner roundness (0..1)
+, color: '#ffffff' // #rgb or #rrggbb or array of colors
+, opacity: 0.25 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: -1 // 1: clockwise, -1: counterclockwise
+, speed: 0.15 // Rounds per second
+, trail: 6 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '90%' // Top position relative to parent
+, left: '95%' // Left position relative to parent
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+     
+</script> 
+    
+<style>
+#logo-zone {
+position: absolute;
+top: 40vh;
+left: 35% ;
+height: 26vh;
+width: 400px;
+background-color: transparent;
+
+}
+ </style>
+        
+<a id="logo-zone" href="index.html">    
+ 
+<audio controls autoplay loop>
+  <source src="loop8.wav" type="audio/wav">
+</audio>
+    
+<audio id="sine" src="sine.wav">
+
+
+<script>
+setTimeout(function(){
+    document.getElementById("sine").play();
+}, 2480, sine.loop=true);
+</script>
+    
+<audio id="loop3" src="loop12.wav">
+
+
+<script>
+setTimeout(function(){
+    document.getElementById("loop3").play();
+}, 380, loop3.loop=true);
+</script>
+
+<script>
+setTimeout2(function(){
+    document.getElementById("loop3").play();
+}, 80, loop3.loop=true);
+</script>   
+</body>
+</html>

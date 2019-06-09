@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+    </head>
+
+    
+<style>
+body {
+  background: red; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-repeating-radial-gradient(orange, #e6e698 10%, #6493a8 15%);
+  /* For Opera 11.6 to 12.0 */
+  background: -o-repeating-radial-gradient(orange, #ffff9c 10%, #6493a8 15%);
+  /* For Firefox 3.6 to 15 */
+  background: -moz-repeating-radial-gradient(orange, #ffff9c 10%, #6493a8 15%);
+  /* Standard syntax */
+  background: repeating-radial-gradient(orange, #ffff9c 10%, #6493a8 15%);
+}
+
+    
+</style>
+
+<style>
+@keyframes blink {
+    0% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    85% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+img {
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+}
+</style>   
+    
+<script>
+function openWin() {
+    var myWindow = window.open("3.html", "1", "width=400, height=400");
+    var myWindow2 = window.open("4.html", "2", "width=400, height=400");
+    setTimeout(function(){ myWindow.close() }, 3000);
+}
+</script>
+    
+<script>
+function openWin2() {
+    var myWindow = window.open("4.html", "2", "width=400, height=400");
+    
+    setTimeout(function(){ myWindow.close() }, 3000);
+}
+</script>
+    
+<style>
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:cover;
+}    
+    
+audio { 
+   display:none;
+}
+    
+</style>
+<body>
+
+
+ <div id="wrapper" style="width:100%; text-align:center; top:0vh">
+<p><a href="5.1.html">
+<marquee behavior="scroll" direction="down">
+    <img src="spinner-ka.gif" class="centerImage1" alt="" width="400" onclick="openWin()" > </marquee></a></p></div>
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:0vh">
+<p><a href="5.1.html" class="yourlink">
+<marquee behavior="scroll" direction="left">
+    <img src="spinner-transparent.gif" class="centerImage1" alt="" width="400" onclick="openWin()"> </marquee></a></p></div>
+    
+    <script>
+    $('a.yourlink').click(function(e) {
+    e.preventDefault();
+    window.open('3.html');
+    window.open('4.html');
+});
+
+    
+    </script>
+    
+
+<audio id="click2" src="click%202.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("click2").play();
+}, 480, click2.loop=true);
+</script> 
+    
+<audio id="click3" src="click%202.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("click3").play();
+}, 600, click3.loop=true);
+</script>    
+    
+<audio id="click4" src="click%202.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("click4").play();
+}, 560, click4.loop=true);
+</script>  
+
+<audio id="drone3" src="drone3.1.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("drone3").play();
+}, 280, drone3.loop=true);
+</script>
+    
+<audio id="drone4" src="drone3.1.wav">
+<script>
+setTimeout(function(){
+    document.getElementById("drone4").play();
+}, 380, drone4.loop=true);
+</script>
+    
+<audio id="drone5" src="click%20sound.wav">
+<script>
+setTimeout(function(){
+    document.getElementById("drone5").play();
+}, 450, drone5.loop=true);
+</script>
+    
+<audio controls autoplay loop>
+  <source src="drone3.wav" type="audio/wav">
+</audio>
+    
+<audio controls autoplay loop>
+  <source src="drone.wav" type="audio/wav">
+</audio>
+    
+</body>
+</html>

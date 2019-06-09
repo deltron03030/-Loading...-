@@ -1,0 +1,285 @@
+
+
+<html>
+<head>
+  <title>Loading...</title>   
+<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script> 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script> 
+    </head>
+    
+    <body>
+        <style>
+      body {
+    -webkit-animation: animate_bg 5s;
+    animation: animate_bg 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {background:#cb81a0;}
+    
+    70%   {background:rgb(166, 203, 209);}
+    
+    100%  {background:rgba(209, 207, 158, 0.81);}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:#9da7b5;}
+    
+    50%  {background:#42474d;}
+    
+    100%   {background:#bec7d4;}
+}    
+audio { 
+   display:none;
+}
+ </style>
+     
+<style>
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+img {
+    animation: blink 10s;
+    animation-iteration-count: infinite;
+}
+</style>           
+    <div id='preview'></div>
+        
+ <script>
+var opts = {
+  lines: 70 // The number of lines to draw
+, length: 300 // The length of each line
+, width: 10 // The line thickness
+, radius: 40 // The radius of the inner circle
+, scale: 2.75 // Scales overall size of the spinner
+, corners: 0.2 // Corner roundness (0..1)
+, color: '#ffffff' // #rgb or #rrggbb or array of colors
+, opacity: 0.3 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: 1 // 1: clockwise, -1: counterclockwise
+, speed: 0.1 // Rounds per second
+, trail: 1 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '10%' // Top position relative to parent
+, left: '5%' // Left position relative to parent
+, shadow: true // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script> 
+        
+ <script>
+var opts = {
+  lines: 40 // The number of lines to draw
+, length: 300 // The length of each line
+, width: 30 // The line thickness
+, radius: 80 // The radius of the inner circle
+, scale: 5 // Scales overall size of the spinner
+, corners: 2 // Corner roundness (0..1)
+, color: '#faffe0' // #rgb or #rrggbb or array of colors
+, opacity: 0.3 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: -1 // 1: clockwise, -1: counterclockwise
+, speed: 0.05 // Rounds per second
+, trail: 1 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '180%' // Top position relative to parent
+, left: '15%' // Left position relative to parent
+, shadow: true // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script> 
+        
+ <script>
+var opts = {
+  lines: 7 // The number of lines to draw
+, length: 110 // The length of each line
+, width: 30 // The line thickness
+, radius: 50 // The radius of the inner circle
+, scale: 2.75 // Scales overall size of the spinner
+, corners: 1 // Corner roundness (0..1)
+, color: '#ffedff' // #rgb or #rrggbb or array of colors
+, opacity: 0.25 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: -1 // 1: clockwise, -1: counterclockwise
+, speed: 0.15 // Rounds per second
+, trail: 6 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '90%' // Top position relative to parent
+, left: '95%' // Left position relative to parent
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script> 
+
+<script>
+var opts = {
+  lines: 7 // The number of lines to draw
+, length: 210 // The length of each line
+, width: 30 // The line thickness
+, radius: 50 // The radius of the inner circle
+, scale: 2.75 // Scales overall size of the spinner
+, corners: 1 // Corner roundness (0..1)
+, color: '#fff7ed' // #rgb or #rrggbb or array of colors
+, opacity: 0.25 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: -1 // 1: clockwise, -1: counterclockwise
+, speed: 0.15 // Rounds per second
+, trail: 6 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '290%' // Top position relative to parent
+, left: '95%' // Left position relative to parent
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script> 
+
+<script>
+var opts = {
+  lines: 7 // The number of lines to draw
+, length: 410 // The length of each line
+, width: 30 // The line thickness
+, radius: 50 // The radius of the inner circle
+, scale: 2.75 // Scales overall size of the spinner
+, corners: 1 // Corner roundness (0..1)
+, color: '#ffedff' // #rgb or #rrggbb or array of colors
+, opacity: 0.25 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: -1 // 1: clockwise, -1: counterclockwise
+, speed: 0.15 // Rounds per second
+, trail: 6 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '350%' // Top position relative to parent
+, left: '0%' // Left position relative to parent
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script> 
+ <script>
+var opts = {
+  lines: 20 // The number of lines to draw
+, length: 500 // The length of each line
+, width: 10 // The line thickness
+, radius: 40 // The radius of the inner circle
+, scale: 2.75 // Scales overall size of the spinner
+, corners: 0.2 // Corner roundness (0..1)
+, color: '#ffffff' // #rgb or #rrggbb or array of colors
+, opacity: 0.3 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: 1 // 1: clockwise, -1: counterclockwise
+, speed: 0.1 // Rounds per second
+, trail: 1 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '410%' // Top position relative to parent
+, left: '105%' // Left position relative to parent
+, shadow: true // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script> 
+        
+<audio controls autoplay loop>
+  <source src="w3.1.wav" type="audio/wav">
+</audio>
+        
+<audio controls autoplay loop>
+  <source src="white%20noise.wav" type="audio/wav">
+</audio>
+    
+ 
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:40vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:20vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:30vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="300px"  class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:10vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="vh/10"  class="play">   </div> 
+    
+<div id="wrapper" style="width:100%; text-align:center; top:60vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+    
+<div id="wrapper" style="width:100%; text-align:center; top:80vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="400px"  class="play">   </div> 
+<div id="wrapper" style="width:100%; text-align:center; top:70vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="550px"  class="play">   </div> 
+    <div id="wrapper" style="width:100%; text-align:center; top:50vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="100px"  class="play">   </div> 
+         <div id="wrapper" style="width:100%; text-align:center; top:90vh">
+ <div id="wrapper" style="width:100%; text-align:center; top:40vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:20vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:30vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="300px"  class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:10vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="vh/10"  class="play">   </div> 
+    
+<div id="wrapper" style="width:100%; text-align:center; top:60vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+    
+<div id="wrapper" style="width:100%; text-align:center; top:80vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="400px"  class="play">   </div> 
+<div id="wrapper" style="width:100%; text-align:center; top:70vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="550px"  class="play">   </div> 
+    <div id="wrapper" style="width:100%; text-align:center; top:50vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="100px"  class="play">   </div> 
+         <div id="wrapper" style="width:100%; text-align:center; top:90vh">
+             
+<div id="wrapper" style="width:100%; text-align:center; top:20vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:30vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="300px"  class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:10vh">
+<img src="Loading_icon-chaos.gif" onclick="this.style.display='none';" alt="" width="vh/10"  class="play">   </div> 
+<p><a href="4.41.html">
+<img src="Loading_icon-chaos.gif" alt="" width="80px" ></a></p></div>
+</body>
+</html>

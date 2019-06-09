@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+
+    
+<style>
+body {
+    
+    
+    background: red; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient( #adfcff, yellow, pink,rgba(103, 0, 128, 0.57)); /* Safari */
+  background: -o-radial-gradient( #adfcff, yellow, rgba(103, 0, 128, 0.57)); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient( #adfcff, yellow, rgba(103, 0, 128, 0.57)); /* Firefox 3.6 to 15 */
+  background: radial-gradient( #adfcff, #f7f783 15%, pink 20%, rgba(103, 0, 128, 0.57)) 50%, #f7f783 20%, #ffffff ; /* Standard syntax */
+}
+
+    
+</style>
+
+<style>
+@keyframes blink {
+    0% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    85% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+img {
+    animation: blink 10s;
+    animation-iteration-count: infinite;
+}
+</style>   
+    
+<script>
+function openWin() {
+    var myWindow = window.open("3.html", "1", "width=400, height=400");
+    
+    setTimeout(function(){ myWindow.close() }, 3000);
+}
+
+</script>
+    
+<style>
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}    
+    
+audio { 
+   display:none;
+}
+    
+</style>
+<body>
+
+<div id="wrapper" style="width:100%; text-align:center; top:50vh">
+<p><a href="4.71.html">
+<img src="spinner-ka.gif" class="centerImage1" alt="" width="400" > </a></p></div>
+    
+
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:50vh">
+<p><a href="4.71.html">
+<img src="spinner-transparent.gif" class="centerImage1" alt="" width="400" > </a></p></div>
+
+    
+        
+
+<audio id="click2" src="click%202.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("click2").play();
+}, 480, click2.loop=true);
+</script>    
+
+<audio id="drone3" src="drone3.1.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("drone3").play();
+}, 280, drone3.loop=true);
+</script>
+    
+<audio id="drone4" src="drone3.1.wav">
+<script>
+setTimeout(function(){
+    document.getElementById("drone4").play();
+}, 380, drone4.loop=true);
+</script>
+    
+<audio controls autoplay loop>
+  <source src="drone3.wav" type="audio/wav">
+</audio>
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<div class="animate"></div>    
+    
+<style>
+body {
+    -webkit-animation: animate_bg 1.2s;
+    animation: animate_bg 1.2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {background:#3761b1;}
+    25%  {background:#5b6d96;}
+    50%  {background:#532d80;}
+    75% {background:#463ea0;}
+    100%   {background:#3761b1;}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:#3761b1;}
+    25%  {background:#5b6d96;}
+    50%  {background:#532d80;}
+    75% {background:#463ea0;}
+    100%   {background:#3761b1;}
+}    
+    
+</style>
+    
+
+    
+<style>
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}    
+    
+audio { 
+   display:none;
+}
+    
+</style>
+<body>
+
+
+ <div id="wrapper" style="width:100%; text-align:center; top:50vh">
+<p><a href="world3.1.html">
+<img src="Loading_icon-chaos.gif" class="centerImage1" alt="" width="216" height="131"></a></p></div>
+
+
+<audio controls autoplay loop>
+  <source src="noise+click.wav" type="audio/wav">
+</audio>
+    
+
+    
+<audio controls autoplay loop>
+  <source src="drone.wav" type="audio/wav">
+</audio>
+    
+</body>
+</html>

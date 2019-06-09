@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+    <body>
+
+<div class="animate"></div>    
+    
+<style>
+body {
+    -webkit-animation: animate_bg 0.5s;
+    animation: animate_bg 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {background:#9da7b5;}
+    
+    50%  {background:#42474d;}
+    
+    100%   {background:#bec7d4;}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:#9da7b5;}
+    
+    50%  {background:#42474d;}
+    
+    100%   {background:#bec7d4;}
+}    
+    
+</style>
+    
+
+    
+<style>
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}    
+    
+audio { 
+   display:none;
+}
+    
+</style>
+    
+<style>
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+img {
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+}
+</style>    
+
+
+
+  <div id='preview'></div>
+        
+ <script>
+var opts = {
+  lines: 7 // The number of lines to draw
+, length: 100 // The length of each line
+, width: 30 // The line thickness
+, radius: 0 // The radius of the inner circle
+, scale: 2.75 // Scales overall size of the spinner
+, corners: 1 // Corner roundness (0..1)
+, color: '#ffffff' // #rgb or #rrggbb or array of colors
+, opacity: 0.25 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: 1 // 1: clockwise, -1: counterclockwise
+, speed: 0.1 // Rounds per second
+, trail: 6 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, top: '10%' // Top position relative to parent
+, left: '5%' // Left position relative to parent
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+}
+var target = document.getElementById('preview')
+var spinner = new Spinner(opts).spin(target);
+
+</script> 
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:90vh">
+<p><a href="index.html">
+<img src="Loading_icon-chaos.gif" alt="" width="80px" ></a></p></div>
+ 
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:40vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+    
+ <div id="wrapper" style="width:100%; text-align:center; top:20vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:30vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="300px"  class="play">   </div> 
+ <div id="wrapper" style="width:100%; text-align:center; top:10vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="vh/10"  class="play">   </div> 
+    
+<div id="wrapper" style="width:100%; text-align:center; top:60vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="216" height="131" class="play">   </div> 
+    
+<div id="wrapper" style="width:100%; text-align:center; top:80vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="400px"  class="play">   </div> 
+<div id="wrapper" style="width:100%; text-align:center; top:70vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="550px"  class="play">   </div> 
+    <div id="wrapper" style="width:100%; text-align:center; top:50vh">
+<img src="Loading_icon-transparent.gif" onclick="this.style.display='none';" alt="" width="100px"  class="play">   </div> 
+
+   
+<audio controls autoplay loop>
+  <source src="noise+click.wav" type="audio/wav">
+</audio>
+
+<audio id="drone" src="drone2.1.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("drone").play();
+}, 10000, drone.loop=true);
+</script>
+
+<audio controls autoplay loop>
+  <source src="noise+click.wav" type="audio/wav">
+</audio>
+
+<audio id="drone2" src="drone2.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("drone2").play();
+}, 22000, drone2.loop=true);
+</script>
+    
+<audio controls autoplay loop>
+  <source src="glitch.wav" type="audio/wav">
+</audio>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	background-color: #ef7cdd;
+}
+</style>
+
+<style>
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}    
+    
+audio { 
+   display:none;
+}
+    
+</style>
+<body>
+
+
+ <div id="wrapper" style="width:100%; text-align:center; top:50vh">
+<p><a href="4.51.html">
+<img src="spinner-transparent.gif" class="centerImage1" alt="" width="400" ></a></p></div>
+    
+
+<audio id="click2" src="click%202.wav">
+
+<script>
+setTimeout(function(){
+    document.getElementById("click2").play();
+}, 480, click2.loop=true);
+</script>    
+
+    
+<audio controls autoplay loop>
+  <source src="drone3.wav" type="audio/wav">
+</audio>
+    
+</body>
+</html>
